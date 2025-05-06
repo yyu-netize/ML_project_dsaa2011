@@ -1,0 +1,21 @@
+# Basic preprocessing method include encoding y labels, spliting training and testing data and standardizing to ensure everyone's preprocessed data aligned with each other.
+
+import numpy as np
+import pandas as pd
+from sklearn.preprocessing import StandardScaler, LabelEncoder
+from sklearn.model_selection import train_test_split
+
+data = pd.read_excel('Dry_Bean_Dataset.xlsx')
+
+X = data.drop(columns = ['Class'])
+y = data['Class']
+
+# label_encoding
+label_encoder = LabelEncoder()
+y_encoded = label_encoder.fit_transform(y)
+
+# train_test_split and standardization
+X_train, X_test, y_train, y_test = train_test_split(X, y_encoded, test_size=0.2, random_state=42, shuffle=True)
+scaler = StandardScaler().fit(X_train)
+X_train_scaled = scaler.transform(X_train)
+X_test_scaled = scaler.transform(X_test)

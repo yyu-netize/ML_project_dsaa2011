@@ -8,7 +8,6 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder, label_binarize
 import seaborn as sns
 from collections import Counter
 
-
 # 1. get the training file
 file_path = 'Dry_Bean_Dataset.xlsx'
 data = pd.read_excel(file_path)

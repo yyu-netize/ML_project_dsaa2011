@@ -11,3 +11,13 @@ Description: Contains 13,611 instances of dry bean measurements with 16 features
 ### Prediction: Train and test supervised learning models (e.g., decision tree, logistic regression).
 ### Model Evaluation: Calculate metrics (accuracy, precision, recall, F1-score) and draw ROC curves.
 ### Open-ended Exploration: Experiment with additional machine learning techniques to improve models.
+
+
+'''text
+ml_paper/
+├── Introduction/
+├── Data_preprocess
+│   └── utils/
+└── docs/
+    └── README.md
+'''

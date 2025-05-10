@@ -13,11 +13,5 @@ Description: Contains 13,611 instances of dry bean measurements with 16 features
 ### Open-ended Exploration: Experiment with additional machine learning techniques to improve models.
 
 
-'''text
-ml_paper/
-├── Introduction/
-├── Data_preprocess
-│   └── utils/
-└── docs/
-    └── README.md
-'''
+
+

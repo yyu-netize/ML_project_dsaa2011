@@ -1,15 +1,15 @@
-pandas
-numpy
-sklearn
-matplotlib
-mpl_toolkits
+pandas 2.2.3
+numpy 1.24.3
+sklearn 1.6.1
+matplotlib 3.10.0
+mpl_toolkits 3.10.0
 os
-plotly
+plotly 5.24.1
 collections
 hdbscan
-hmmlearn
-torch
-xgboost
-catboost
-imblearn
+hmmlearn 0.3.3
+torch 1.12.1
+xgboost 2.1.1
+catboost 1.2.7
+imblearn 0.12.3
 

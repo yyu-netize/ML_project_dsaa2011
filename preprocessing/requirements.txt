@@ -1,15 +1,16 @@
-pandas 2.2.3
-numpy 1.24.3
-sklearn 1.6.1
-matplotlib 3.10.0
-mpl_toolkits 3.10.0
-os
-plotly 5.24.1
-collections
+pandas
+numpy==1.23.5
+scikit-learn
+matplotlib>=3.8.0
+plotly
 hdbscan
-hmmlearn 0.3.3
-torch 1.12.1
-xgboost 2.1.1
-catboost 1.2.7
-imblearn 0.12.3
-
+hmmlearn
+torch
+xgboost
+catboost
+imblearn
+ipykernel
+openpyxl
+nbformat>=4.2.0
+scikit-learn-extra
+seaborn
